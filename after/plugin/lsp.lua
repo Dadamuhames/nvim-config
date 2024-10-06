@@ -6,7 +6,7 @@ lsp.on_attach(function(client, bufnr)
   lsp.default_keymaps({buffer = bufnr})
 end)
 
-lsp.setup_servers({'pyright', 'emmet_language_server', "java_language_server", "djlsp", "gopls"})
+lsp.setup_servers({'pyright', 'emmet_language_server', "java_language_server", "djlsp", "gopls", "ts_ls"})
 
 
 local lspconfig = require('lspconfig')
